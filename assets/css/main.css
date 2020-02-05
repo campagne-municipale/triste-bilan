@@ -3083,7 +3083,7 @@ color: #086623 !important;
 		-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
-		transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
+		transition: opacity 2s ease-in-out, transform 20.75s ease-in-out;
 	}
 
 	body.is-preload .banner.onload-content-fade-left .content {
@@ -3192,10 +3192,10 @@ color: #086623 !important;
 			-webkit-transition: opacity 0.75s ease-in-out;
 			-ms-transition: opacity 0.75s ease-in-out;
 			transition: opacity 0.75s ease-in-out;
-			-moz-transition-delay: 0.5625s;
-			-webkit-transition-delay: 0.5625s;
-			-ms-transition-delay: 0.5625s;
-			transition-delay: 0.5625s;
+			-moz-transition-delay: 1s;
+			-webkit-transition-delay: 1s;
+			-ms-transition-delay: 1s;
+			transition-delay: 1s;
 		}
 
 	body.is-preload .banner.onload-image-fade-left .image {
@@ -3681,11 +3681,12 @@ color: #086623 !important;
 	}
 
 		.banner.style2 .content {
-			padding: 5.25rem 5.25rem 3.25rem 5.25rem ;
+			padding: 1rem ;
 			position: relative;
-			width: 40rem;
+			width: 32rem;
 			max-width: 100%;
-			background-color: inherit;
+			background-color: #fcd18b;
+			color: #086623 !important;
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
